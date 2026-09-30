@@ -1,4 +1,4 @@
-Ympäristön tarkoitus.
+Ympäristön tarkoitus. On opiskelijoille ymmärtää/oppia ylläpidettävän rakenteesta, haavoittuvuuksista yms.
 
 
 
@@ -8,8 +8,8 @@ r1 - router1?
 r2 - router2?
 r3 - router3?
 client1 - käyttäjä
-attacker -
-web1 -
+attacker - cyber hyökkääjä
+web1 - netti1
 db1 - database1
 branch-client -
 ansible -
