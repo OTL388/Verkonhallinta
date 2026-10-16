@@ -173,7 +173,16 @@ Ainoa liikahdus verkkoliikenteessä näyttäisi olevan stress-ng:n asennus.
 | Soveltuvuus pilviympäristöihin | ei taida sopia | rakennettu juuri pilviympäristöjä ajatellen |
 
 # 7. Yhteenveto
-prometheus käyttää promQL kieltä sen kyselyihin joka mahdollistaa erittäin kompleksitkin kyselyt, prometheus on erittäin skaalautuva.
+Prometheus käyttää promQL kieltä sen kyselyihin joka mahdollistaa erittäin kompleksitkin kyselyt, prometheus on erittäin skaalautuva.
+
+Ylläpitäjille terkeät mittarit voidaan jakaa kahteen eri kategoriaan infran terveys ja palvelun laatu. Infran puolella on laitteiden käyttöaste ja virheet, palvelun laadun puolella on pyyntömäärät, vateaika, ja virheet.
+
+Dashboardista näkyy cpu, muistin, ja tallennustilan käyttö, sekä netin vastaannottoon ja lähetykseen käytetty kaistaleveys.
+
+Tämän hetken dashboardista puuttuu tuo palvelun laadun puolen mittarit eli lisäisin ne seuraavaksi.
+
+monitorointi tiedot auttaa vianetsinnässä sillä voit nähdä mikä muuttui, miten, ja milloin. 
+
 
 
 
