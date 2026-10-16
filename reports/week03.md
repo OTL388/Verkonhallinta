@@ -163,6 +163,18 @@ Ainoa liikahdus verkkoliikenteessä näyttäisi olevan stress-ng:n asennus.
 
 # 6. SNMP vs Prometheus
 
+| Ominaisuus | SNMP | Prometheus |
+|------------|------|------------|
+| Tiedonkeruu | kyselypohjainen kai| kyselypohjainen |
+| Käyttöönotto | aika yksinkertainen | yksinkertainen |
+| Mittarien määrä | vähempi | enempi|
+| Visualisointi | vähän kökkö | laajat valikoima kaikkia eri graaffeja |
+| Hälytysmahdollisuudet | laitteet voivat lähettää hälytyksiä | lähes mikä vain on mahdollista |
+| Soveltuvuus pilviympäristöihin | ei taida sopia | rakennettu juuri pilviympäristöjä ajatellen |
 
 # 7. Yhteenveto
+prometheus käyttää promQL kieltä sen kyselyihin joka mahdollistaa erittäin kompleksitkin kyselyt, prometheus on erittäin skaalautuva.
+
+
+
 
