@@ -142,13 +142,19 @@ node_filesystem_size_bytes{device="/dev/sdd",device_error="",fstype="ext4",mount
 node_memory_MemTotal_bytes 1.6613269504e+10
 ```
 
+
 # 3. Prometheus
 
+<img width="1726" height="79" alt="kuva2" src="./images/kuva2.png" />
 
 # 4. Dashboard
 
+<img width="1487" height="1075" alt="kuva3" src="./images/kuva3.png" />
+
 
 # 5. Kuormitustesti
+
+<img width="1407" height="985" alt="kuva4" src="./images/kuva4.png" />
 
 
 # 6. SNMP vs Prometheus
