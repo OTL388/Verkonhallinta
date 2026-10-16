@@ -151,11 +151,15 @@ node_memory_MemTotal_bytes 1.6613269504e+10
 
 <img width="1487" height="1075" alt="kuva3" src="./images/kuva3.png" />
 
-
 # 5. Kuormitustesti
 
 <img width="1407" height="985" alt="kuva4" src="./images/kuva4.png" />
 
+Cpu käyrä nousi vähäsen ja käväisi pikaisesti 9,8 % kohdilla.
+
+Levytilan käyttö käyrästä näkee selvästi missä 500mb:n tiedosto on luotu ja missä kohtaa stress-ng on asennettu.
+
+Ainoa liikahdus verkkoliikenteessä näyttäisi olevan stress-ng:n asennus.
 
 # 6. SNMP vs Prometheus
 
