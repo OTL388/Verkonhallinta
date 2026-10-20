@@ -24,7 +24,7 @@ Node Exporter playbook ei kirjoita conf tiedostoon mitään ja se taitaa käynni
 
 # Oma playbook
 
-
+Koodi ja suorituksen tulokset (web-palvelin ja/tai tietokantapalvelin).
 ```yml
 - name: Marko ja Polo
   hosts: web1
@@ -122,46 +122,16 @@ web1                       : ok=6    changed=1    unreachable=0    failed=0    s
 ```
 
 # Vertailu
-client1
-| Kerättävä tieto | saatu arvo |
-|---------|---------:|
-| käyttöjärjestelmä | Ubuntu |
-| IP-osoite | 172.20.20.5, 10.10.10.101 |
-| prosessorien määrä | 16 |
-| muistin määrä | 15843 mb |
 
-web1
-| Kerättävä tieto | saatu arvo |
-|---------|---------:|
-| käyttöjärjestelmä | Ubuntu |
-| IP-osoite | 172.20.20.2, 10.10.20.101 |
-| prosessorien määrä | 16 |
-| muistin määrä | 15843 mb |
+Käsin vs. automaatio.
+ 
+|   | Käsin | Automaatio |
+| :--- | :---: | ---: |
+| Skaalautuvuus | Kökkö skaalautuminen | Skaalautuu hyvin |
+| Nopeus | Hidasta | Nopeaa |
+| Kannattavuus | Ei kannattava | Kannattava |
 
-branch-client
-| Kerättävä tieto | saatu arvo |
-|---------|---------:|
-| käyttöjärjestelmä | Ubuntu |
-| IP-osoite | 172.20.20.4, 10.10.30.101 |
-| prosessorien määrä | 16 |
-| muistin määrä | 15843 mb |
-
-db1
-| Kerättävä tieto | saatu arvo |
-|---------|---------:|
-| käyttöjärjestelmä | Ubuntu |
-| IP-osoite | 10.10.20.102, 172.20.20.8 |
-| prosessorien määrä | 16 |
-| muistin määrä | 15843 mb |
-
-client 1
-| Kerättävä tieto | saatu arvo |
-|---------|---------:|
-| käyttöjärjestelmä | Ubuntu |
-| IP-osoite | 172.20.20.3, 10.10.10.200 |
-| prosessorien määrä | 16 |
-| muistin määrä | 15843 mb |
-
+Autommoitu
 
 # Yhteenveto
 
