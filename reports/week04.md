@@ -12,7 +12,13 @@ Ryhmät auttavat laitteiden hallinnassa.
 
 # Esimerkkiplaybookit
 
-Playbook tekee yhteys testin 
+Playbook tekee yhteys testin. 
+Tuloksista voidaan päätellä, ettei monitorointikoneissa ja reitittimissä ole ssh yhteyttä.
+
+Playbookeissa käytetään seuraavia moduuleja: apt, file, get_url, unarchive, copy, shell, uri, debug, ja service.
+Muuttujia on käytetty esim. node exportterin version valitsemiseen ja lataus url:n täydentämiseen dynaamisesti. Muuttujia on käytetty myös esim. tulostuksessa inventory_hostname, joka palauttaa palvelimen nimen tai jotai emt.
+handelers-lohkoa käytetään 
+
 
 # Oma playbook
 
