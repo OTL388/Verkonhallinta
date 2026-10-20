@@ -12,7 +12,7 @@ Ryhmät auttavat laitteiden hallinnassa.
 
 # Esimerkkiplaybookit
 
-Havainnot SNMP- ja Node Exporter -playbookeista.
+Playbook tekee yhteys testin 
 
 # Oma playbook
 
